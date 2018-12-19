@@ -171,6 +171,13 @@ class CapitalT(object):
         #   Note: Implement   attach_to   before testing this __init__ method.
         # ---------------------------------------------------------------------
 
+        self.v_rect = height
+        self.h_rect = width
+        self.intersection_center = intersection_center
+        self.letter_thickness = letter_thickness
+
+        self.rect =
+
     def attach_to(self, window):
         """
         What comes in:
@@ -198,6 +205,9 @@ class CapitalT(object):
         #     c. Compare the graphics window to the   simple_t.pdf   pictures.
         #        They should look exactly the same as each other.
         # ---------------------------------------------------------------------
+        rect =
+
+        self.attach_to(window)
 
     def set_colors(self, fill_color, outline_color):
         """
